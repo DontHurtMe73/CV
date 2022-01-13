@@ -313,7 +313,7 @@ svg circle:nth-child(2) {
 }
 
 .card:nth-child(6) svg circle:nth-child(2) {
-   stroke-dashoffset: 220;
+   stroke-dashoffset: 308;
    /* stroke-dashoffset: calc(440 - (440 * 50) / 100); */
 }
 
@@ -387,7 +387,6 @@ svg circle:nth-child(2) {
    margin-bottom: 20px;
 }
 
-
 .experience__item {
    position: relative;
 }
@@ -417,15 +416,60 @@ svg circle:nth-child(2) {
 }
 
 .experience__dsc {
+   display: block;
    margin-bottom: 20px;
    font-size: 16px;
    line-height: 1.25;
    font-weight: 400;
 }
 
+.project__wrapper{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.project__link{
+   margin-bottom: 20px;
+   margin-top: 20px;
+   color: inherit;
+   transition: opacity 0.1s ease-in;
+}
+
+.project__link:hover{
+   opacity: 0.7;
+}
+
+.project__title{
+   margin-bottom: 10px;
+}
+
 .education__wrapper {
    margin-top: 20px;
    margin-bottom: 20px;
+}
+
+.experience__title{
+   margin-bottom: 10px;
+   font-size: 18px;
+   text-decoration: underline;
+}
+
+.dsc__link{
+   color: inherit;
+
+}
+
+.dsc__link:hover{
+   text-decoration: underline;
+}
+
+.description__list{
+   margin-bottom: 20px;
+}
+
+.description__list li{
+   list-style: circle;
 }
 
 /*// experience */
