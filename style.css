@@ -288,13 +288,13 @@ svg circle:nth-child(2) {
 }
 
 .card:nth-child(1) svg circle:nth-child(2) {
-   stroke-dashoffset: 110;
-   /* stroke-dashoffset: calc(440 - (440 * 75) / 100); */
+   stroke-dashoffset: 22;
+   /* stroke-dashoffset: calc(440 - (440 * 95) / 100); */
 }
 
 .card:nth-child(2) svg circle:nth-child(2) {
-   stroke-dashoffset: 132;
-   /* stroke-dashoffset: calc(440 - (440 * 70) / 100); */
+   stroke-dashoffset: 44;
+   /* stroke-dashoffset: calc(440 - (440 * 90) / 100); */
 }
 
 .card:nth-child(3) svg circle:nth-child(2) {
@@ -313,8 +313,8 @@ svg circle:nth-child(2) {
 }
 
 .card:nth-child(6) svg circle:nth-child(2) {
-   stroke-dashoffset: 308;
-   /* stroke-dashoffset: calc(440 - (440 * 50) / 100); */
+   stroke-dashoffset: 396;
+   /* stroke-dashoffset: calc(440 - (440 * 10) / 100); */
 }
 
 .card svg circle:nth-child(2) {
