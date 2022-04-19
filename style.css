@@ -317,8 +317,8 @@ svg circle:nth-child(2) {
 }
 
 .card:nth-child(6) svg circle:nth-child(2) {
-   stroke-dashoffset: 396;
-   /* stroke-dashoffset: calc(440 - (440 * 10) / 100); */
+   stroke-dashoffset: 352;
+   /* stroke-dashoffset: calc(440 - (440 * 20) / 100); */
 }
 
 .card svg circle:nth-child(2) {
